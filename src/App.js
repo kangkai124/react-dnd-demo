@@ -179,7 +179,7 @@ class App extends Component {
             </p>
             <p>
               <img src={dog} width='20' alt='dog' />&nbsp;
-              <img src={dog} width='20' alt='cat' />&nbsp;
+              <img src={cat} width='20' alt='cat' />&nbsp;
               <img src={panda} width='20' alt='panda' />&nbsp; 接收多种水果
             </p>
           </div>
