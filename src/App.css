@@ -1,0 +1,234 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#content {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+}
+
+#main {
+  overflow: hidden;
+  height: 100%;
+  width: 640px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+#words {
+  width: 640px;
+  height: 140px;
+  border: 1px solid #d9d9d9;
+  margin: 0 auto;
+  font-size: 14px;
+  text-align: 10px;
+  padding: 10px;
+  font-family: Kaiti;
+}
+
+#words p {
+  height: 20px;
+  margin-bottom: 6px;
+  line-height: 20px;
+}
+
+#words p img {
+  vertical-align: middle;
+}
+
+
+#main .left {
+  flex: none;
+  min-width: 200px;
+  border: 1px solid #d9d9d9;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  text-indent: 10px;
+  font-size: 14px;
+  min-height: 570px;
+}
+
+#main .left .vertical-box {
+  flex: auto;
+  padding-top: 10px;
+}
+
+#main .left .variables {
+  border-bottom: 1px solid #d9d9d9;
+  padding: 10px;
+}
+
+#main .left .variables .fruit {
+  border: 1px solid #d9d9d9;
+  margin-bottom: 10px;
+  padding: 2px 0;
+  font-size: 14px;
+  text-indent: 10px;
+  color: #333;
+}
+
+#main .left .variables .fruit:hover {
+  cursor: move;
+}
+
+#main .left .wind {
+  padding: 10px;
+  font-size: 14px;
+  text-indent: 10px;
+  color: #333;
+}
+
+#main .left .wind .bamboo {
+  border: 1px solid #d9d9d9;
+  margin-bottom: 10px;
+  padding: 2px 0;
+  font-size: 14px;
+  text-indent: 10px;
+  color: #333;
+}
+
+#main .left .wind .bamboo:hover {
+  cursor: move;
+}
+
+#main .right {
+  flex: none;
+  min-width: 200px;
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+#main .right .y1-axis,
+#main .right .y2-axis,
+#main .right .wind-axis {
+  padding: 10px;
+}
+
+
+#main .right .wind-axis .xxx {
+  border-radius: 10px;
+  border: 2px dotted blue;
+  margin-bottom: 10px;
+}
+
+
+/* rabbit */
+#main .right .x-axis {
+  flex: none;
+  height: 70px;
+}
+
+#main .right .rabbit-wrap {
+  height: 36px;
+  padding-top: 8px;
+  border: 1px solid #d9d9d9;
+}
+
+#main .right .x-axis .rabbit {
+  width: 90%;
+  margin: 0 auto;
+  height: 20px;
+  line-height: 20px;
+
+}
+
+#main .right .x-axis .rabbit .rabbit-item {
+  height: 20px;
+  background-color: rgb(226, 94, 167);
+  color: #eee;
+  border-radius: 10px;
+  text-indent: 10px;
+  position: relative;
+}
+
+/* dog */
+#main .right .dog-logo {
+  flex: none;
+  height: 24px;
+}
+
+#main .right .dog-wrap {
+  flex: auto;
+  border: 1px solid #d9d9d9;
+  min-height: 100px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+#main .right .dog-wrap .dog-item {
+  background-color: rgba(255, 138, 0, 0.76);
+  border-radius: 10px;
+  text-indent: 10px;
+  color: #fff;
+}
+
+/* cat */
+#main .right .cat-logo {
+  flex: none;
+  height: 30px;
+  padding-top: 6px;
+}
+
+#main .right .dog-wrap .cat-item {
+  background-color: rgba(104, 226, 134, 1);
+  border-radius: 10px;
+  text-indent: 10px;
+  color: #fff;
+}
+
+/* panda */
+#main .right .panda-item {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  text-indent: 10px;
+  color: #fff;
+}
+
+.ghost {
+  opacity: 0.4;
+}
+
+.box {
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.cancel {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.cancel:hover {
+  cursor: pointer;
+}
+
+#main .aside {
+  flex: none;
+  min-width: 200px;
+  border: 1px solid #d9d9d9;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #444;
+  text-indent: 10px;
+}
